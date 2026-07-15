@@ -1,0 +1,691 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday My Wifey ❤️</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+font-family:Arial,sans-serif;
+background:linear-gradient(-45deg,#ff4d6d,#ff85a2,#ffc2d1,#ffe5ec);
+background-size:400% 400%;
+animation:bg 12s ease infinite;
+overflow:hidden;
+color:white;
+text-align:center;
+}
+
+@keyframes bg{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+.container{
+padding:60px 20px;
+max-width:850px;
+margin:auto;
+}
+
+h1{
+font-size:55px;
+animation:glow 2s infinite;
+}
+
+@keyframes glow{
+50%{text-shadow:0 0 20px white;}
+}
+
+#countdown{
+font-size:32px;
+margin:30px 0;
+font-weight:bold;
+}
+
+.card{
+background:rgba(255,255,255,.15);
+padding:30px;
+border-radius:20px;
+backdrop-filter:blur(10px);
+line-height:1.9;
+font-size:20px;
+}
+
+button{
+margin-top:30px;
+padding:15px 35px;
+font-size:20px;
+border:none;
+border-radius:50px;
+background:white;
+color:#ff2e63;
+cursor:pointer;
+font-weight:bold;
+transition:.3s;
+}
+
+button:hover{
+transform:scale(1.1);
+}
+
+#surprise{
+display:none;
+margin-top:30px;
+font-size:24px;
+animation:fade 2s;
+}
+
+@keyframes fade{
+from{opacity:0;}
+to{opacity:1;}
+}
+
+.heart{
+position:absolute;
+color:white;
+font-size:22px;
+animation:fall linear infinite;
+}
+
+@keyframes fall{
+0%{transform:translateY(-10vh);}
+100%{transform:translateY(110vh);}
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>❤️ Happy Birthday My Queen ❤️</h1>
+
+<div id="countdown"></div>
+
+<div class="card">
+
+<p>
+
+Every heartbeat of mine whispers your name.
+
+You are my happiness,
+my peace,
+my biggest blessing,
+and my forever home.
+
+I never believed someone could change my life completely,
+until you came into mine.
+
+Thank you for loving me,
+supporting me,
+and making every ordinary day feel special.
+
+I promise to stand beside you,
+respect you,
+protect you,
+and love you with all my heart.
+
+May your smile shine brighter than the stars.
+
+May every dream you have become reality.
+
+May happiness follow you forever.
+
+No matter what happens...
+
+I will always choose you.
+
+Again.
+
+Again.
+
+And Forever.
+
+❤️ Happy Birthday My Beautiful Wifey ❤️
+
+I Love You More Than Yesterday,
+But Less Than Tomorrow.
+
+Forever Yours ❤️
+
+</p>
+
+</div>
+
+<button onclick="showLove()">Open My Surprise ❤️</button>
+
+<div id="surprise">
+
+💖
+
+"You are not my one in a million...
+
+You are my once in a lifetime."
+
+❤️
+
+Happy Birthday My Forever Love
+
+❤️
+
+</div>
+
+</div>
+
+<script>
+
+function showLove(){
+document.getElementById("surprise").style.display="block";
+}
+
+const target=new Date("September 2, 2026 00:00:00").getTime();
+
+setInterval(function(){
+
+const now=new Date().getTime();
+
+const gap=target-now;
+
+const d=Math.floor(gap/(1000*60*60*24));
+
+const h=Math.floor((gap%(1000*60*60*24))/(1000*60*60));
+
+const m=Math.floor((gap%(1000*60*60))/(1000*60));
+
+const s=Math.floor((gap%(1000*60))/1000);
+
+document.getElementById("countdown").innerHTML=
+"⏳ "+d+" Days "+h+" Hours "+m+" Minutes "+s+" Seconds";
+
+},1000);
+
+for(let i=0;i<40;i++){
+
+let heart=document.createElement("div");
+
+heart.className="heart";
+
+heart.innerHTML="❤️";
+
+heart.style.left=Math.random()*100+"vw";
+
+heart.style.animationDuration=(Math.random()*6+4)+"s";
+
+heart.style.opacity=Math.random();
+
+heart.style.fontSize=(Math.random()*20+15)+"px";
+
+document.body.appendChild(heart);
+
+}
+
+</script>
+
+</body>
+</html>
+```
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday My Wifey ❤️</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+font-family:Arial,sans-serif;
+background:linear-gradient(-45deg,#ff4d6d,#ff85a2,#ffc2d1,#ffe5ec);
+background-size:400% 400%;
+animation:bg 12s ease infinite;
+overflow:hidden;
+color:white;
+text-align:center;
+}
+
+@keyframes bg{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+.container{
+padding:60px 20px;
+max-width:850px;
+margin:auto;
+}
+
+h1{
+font-size:55px;
+animation:glow 2s infinite;
+}
+
+@keyframes glow{
+50%{text-shadow:0 0 20px white;}
+}
+
+#countdown{
+font-size:32px;
+margin:30px 0;
+font-weight:bold;
+}
+
+.card{
+background:rgba(255,255,255,.15);
+padding:30px;
+border-radius:20px;
+backdrop-filter:blur(10px);
+line-height:1.9;
+font-size:20px;
+}
+
+button{
+margin-top:30px;
+padding:15px 35px;
+font-size:20px;
+border:none;
+border-radius:50px;
+background:white;
+color:#ff2e63;
+cursor:pointer;
+font-weight:bold;
+transition:.3s;
+}
+
+button:hover{
+transform:scale(1.1);
+}
+
+#surprise{
+display:none;
+margin-top:30px;
+font-size:24px;
+animation:fade 2s;
+}
+
+@keyframes fade{
+from{opacity:0;}
+to{opacity:1;}
+}
+
+.heart{
+position:absolute;
+color:white;
+font-size:22px;
+animation:fall linear infinite;
+}
+
+@keyframes fall{
+0%{transform:translateY(-10vh);}
+100%{transform:translateY(110vh);}
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>❤️ Happy Birthday My Queen ❤️</h1>
+
+<div id="countdown"></div>
+
+<div class="card">
+
+<p>
+
+Every heartbeat of mine whispers your name.
+
+You are my happiness,
+my peace,
+my biggest blessing,
+and my forever home.
+
+I never believed someone could change my life completely,
+until you came into mine.
+
+Thank you for loving me,
+supporting me,
+and making every ordinary day feel special.
+
+I promise to stand beside you,
+respect you,
+protect you,
+and love you with all my heart.
+
+May your smile shine brighter than the stars.
+
+May every dream you have become reality.
+
+May happiness follow you forever.
+
+No matter what happens...
+
+I will always choose you.
+
+Again.
+
+Again.
+
+And Forever.
+
+❤️ Happy Birthday My Beautiful Wifey ❤️
+
+I Love You More Than Yesterday,
+But Less Than Tomorrow.
+
+Forever Yours ❤️
+
+</p>
+
+</div>
+
+<button onclick="showLove()">Open My Surprise ❤️</button>
+
+<div id="surprise">
+
+💖
+
+"You are not my one in a million...
+
+You are my once in a lifetime."
+
+❤️
+
+Happy Birthday My Forever Love
+
+❤️
+
+</div>
+
+</div>
+
+<script>
+
+function showLove(){
+document.getElementById("surprise").style.display="block";
+}
+
+const target=new Date("September 2, 2026 00:00:00").getTime();
+
+setInterval(function(){
+
+const now=new Date().getTime();
+
+const gap=target-now;
+
+const d=Math.floor(gap/(1000*60*60*24));
+
+const h=Math.floor((gap%(1000*60*60*24))/(1000*60*60));
+
+const m=Math.floor((gap%(1000*60*60))/(1000*60));
+
+const s=Math.floor((gap%(1000*60))/1000);
+
+document.getElementById("countdown").innerHTML=
+"⏳ "+d+" Days "+h+" Hours "+m+" Minutes "+s+" Seconds";
+
+},1000);
+
+for(let i=0;i<40;i++){
+
+let heart=document.createElement("div");
+
+heart.className="heart";
+
+heart.innerHTML="❤️";
+
+heart.style.left=Math.random()*100+"vw";
+
+heart.style.animationDuration=(Math.random()*6+4)+"s";
+
+heart.style.opacity=Math.random();
+
+heart.style.fontSize=(Math.random()*20+15)+"px";
+
+document.body.appendChild(heart);
+
+}
+
+</script>
+
+</body>
+</html>
+```
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday My Wifey ❤️</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+font-family:Arial,sans-serif;
+background:linear-gradient(-45deg,#ff4d6d,#ff85a2,#ffc2d1,#ffe5ec);
+background-size:400% 400%;
+animation:bg 12s ease infinite;
+overflow:hidden;
+color:white;
+text-align:center;
+}
+
+@keyframes bg{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+.container{
+padding:60px 20px;
+max-width:850px;
+margin:auto;
+}
+
+h1{
+font-size:55px;
+animation:glow 2s infinite;
+}
+
+@keyframes glow{
+50%{text-shadow:0 0 20px white;}
+}
+
+#countdown{
+font-size:32px;
+margin:30px 0;
+font-weight:bold;
+}
+
+.card{
+background:rgba(255,255,255,.15);
+padding:30px;
+border-radius:20px;
+backdrop-filter:blur(10px);
+line-height:1.9;
+font-size:20px;
+}
+
+button{
+margin-top:30px;
+padding:15px 35px;
+font-size:20px;
+border:none;
+border-radius:50px;
+background:white;
+color:#ff2e63;
+cursor:pointer;
+font-weight:bold;
+transition:.3s;
+}
+
+button:hover{
+transform:scale(1.1);
+}
+
+#surprise{
+display:none;
+margin-top:30px;
+font-size:24px;
+animation:fade 2s;
+}
+
+@keyframes fade{
+from{opacity:0;}
+to{opacity:1;}
+}
+
+.heart{
+position:absolute;
+color:white;
+font-size:22px;
+animation:fall linear infinite;
+}
+
+@keyframes fall{
+0%{transform:translateY(-10vh);}
+100%{transform:translateY(110vh);}
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>❤️ Happy Birthday My Queen ❤️</h1>
+
+<div id="countdown"></div>
+
+<div class="card">
+
+<p>
+
+Every heartbeat of mine whispers your name.
+
+You are my happiness,
+my peace,
+my biggest blessing,
+and my forever home.
+
+I never believed someone could change my life completely,
+until you came into mine.
+
+Thank you for loving me,
+supporting me,
+and making every ordinary day feel special.
+
+I promise to stand beside you,
+respect you,
+protect you,
+and love you with all my heart.
+
+May your smile shine brighter than the stars.
+
+May every dream you have become reality.
+
+May happiness follow you forever.
+
+No matter what happens...
+
+I will always choose you.
+
+Again.
+
+Again.
+
+And Forever.
+
+❤️ Happy Birthday My Beautiful Wifey ❤️
+
+I Love You More Than Yesterday,
+But Less Than Tomorrow.
+
+Forever Yours ❤️
+
+</p>
+
+</div>
+
+<button onclick="showLove()">Open My Surprise ❤️</button>
+
+<div id="surprise">
+
+💖
+
+"You are not my one in a million...
+
+You are my once in a lifetime."
+
+❤️
+
+Happy Birthday My Forever Love
+
+❤️
+
+</div>
+
+</div>
+
+<script>
+
+function showLove(){
+document.getElementById("surprise").style.display="block";
+}
+
+const target=new Date("September 2, 2026 00:00:00").getTime();
+
+setInterval(function(){
+
+const now=new Date().getTime();
+
+const gap=target-now;
+
+const d=Math.floor(gap/(1000*60*60*24));
+
+const h=Math.floor((gap%(1000*60*60*24))/(1000*60*60));
+
+const m=Math.floor((gap%(1000*60*60))/(1000*60));
+
+const s=Math.floor((gap%(1000*60))/1000);
+
+document.getElementById("countdown").innerHTML=
+"⏳ "+d+" Days "+h+" Hours "+m+" Minutes "+s+" Seconds";
+
+},1000);
+
+for(let i=0;i<40;i++){
+
+let heart=document.createElement("div");
+
+heart.className="heart";
+
+heart.innerHTML="❤️";
+
+heart.style.left=Math.random()*100+"vw";
+
+heart.style.animationDuration=(Math.random()*6+4)+"s";
+
+heart.style.opacity=Math.random();
+
+heart.style.fontSize=(Math.random()*20+15)+"px";
+
+document.body.appendChild(heart);
+
+}
+
+</script>
+
+</body>
+</html>
+```
+
